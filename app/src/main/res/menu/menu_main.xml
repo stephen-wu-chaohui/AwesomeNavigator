@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.stephenstudio.awesomenavigator.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_item1"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Streets Map"
+        app:showAsAction = "never"/>
+    <item
+        android:id="@+id/action_item2"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Satellite Map"
+        app:showAsAction = "never"/>
+    <item
+        android:id="@+id/action_item3"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Topographic Map"
+        app:showAsAction = "never"/>
+    <item
+        android:id="@+id/action_item4"
+        android:icon="@mipmap/ic_launcher"
+        android:title="OpenStreet Map"
+        app:showAsAction = "never"/>
+</menu>
+

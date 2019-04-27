@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Awesome Navigator</string>
+    <string name="action_settings">Settings</string>
+    <string name="location_permission_denied">User denied permission for device location.</string>
+    <!-- gps autopanmode selections -->
+    <string name="location_mode">LOCATION</string>
+    <string name="walking_mode">COMPASS NAV - WALKING</string>
+    <string name="driving_mode">NAVIGATION - DRIVING</string>
+    <string name="map_center_mode">MAP CENTERED GPS</string>
+    <string name="turn_off_gps">TURN OFF GPS</string>
+</resources>

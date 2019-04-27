@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/gps1"
+        android:icon="@drawable/gps_icon"
+        android:title="GPS"
+        app:showAsAction = "ifRoom">
+        <menu >
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/location"
+                    app:showAsAction="never"
+                    android:title= "@string/location_mode" />
+                <item
+                    android:id="@+id/walking"
+                    app:showAsAction="never"
+                    android:title="@string/walking_mode" />
+                <item
+                    android:id="@+id/driving"
+                    app:showAsAction="never"
+                    android:title="@string/driving_mode" />
+                <item
+                    android:id="@+id/mapcenter"
+                    app:showAsAction="never"
+                    android:title="@string/map_center_mode" />
+                <item
+                    android:id="@+id/turn_off_gps"
+                    app:showAsAction="never"
+                    android:title="@string/turn_off_gps" />
+            </group>
+        </menu>
+    </item>
+</menu>

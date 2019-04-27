@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Display field value -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true" >
+        <TextView
+            android:id="@+id/title"
+            android:text="WGS84 Coordinates"
+            android:textColor="#DF0101"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text line 1"
+            android:textColor="#0000FF"
+            android:layout_below="@+id/title"/>
+        <TextView
+            android:id="@+id/longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text line 2"
+            android:textColor="#0000FF"
+            android:layout_below="@+id/latitude" />
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text line 3"
+            android:textColor="#0000FF"
+            android:layout_below="@+id/longitude" />
+        <TextView
+            android:id="@+id/speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text line 3"
+            android:textColor="#0000FF"
+            android:layout_below="@+id/heading" />
+        <TextView
+            android:id="@+id/accuracy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text line 3"
+            android:textColor="#0000FF"
+            android:layout_below="@+id/speed" />
+    </RelativeLayout>
+
+</LinearLayout>

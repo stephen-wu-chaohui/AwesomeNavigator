@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <calloutStyle
+        backgroundColor = "#CEF6F5"
+        backgroundAlpha="255"
+        borderColor="#f06292"
+        cornerCurve="20"
+        leaderLength="40"
+        anchor="5" />
+</resources>
